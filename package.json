@@ -1,7 +1,7 @@
 {
-  "name": "node-crystal-reports",
+  "name": "node-rdlc",
   "version": "0.0.1",
-  "description": "Use Crystal Reports from Node.JS",
+  "description": "Node.JS bindings to .NET's ReportViewer (Windows Only)",
   "author": "Iván Todorovich",
   "main": "index.js",
   "scripts": {
