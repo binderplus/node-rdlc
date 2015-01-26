@@ -5,7 +5,18 @@ With this module you can run RDLC reports and populate them with javascript data
 
 There's a lot of documentation on the web on how to create usefull report designs. This documentation will only handle specifics on how to run and pass data to a report from Node.JS, but will assume you know how to design a report.
 
-### Populate Data
+### Usage
+
+```js
+var rdlc = require('../index.js')
+rdlc ({ report: 'test.rdl' }, function (err, result) {
+	if (!!err) throw err;
+	var fs = require('fs')
+	fs.writeFileSync('test.pdf', result)
+})
+```
+
+### Populating Data
 
 Basically, there are two ways to pass data: Report parameters (variables) and Report Datasets (tables).
 
