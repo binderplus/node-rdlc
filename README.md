@@ -5,6 +5,10 @@ With this module you can run RDLC reports and populate them with javascript data
 
 There's a lot of documentation on the web on how to create usefull report designs. This documentation will only handle specifics on how to run and pass data to a report from Node.JS, but will assume you know how to design a report.
 
+### Install
+
+`npm install --save node-rdlc`
+
 ### Usage
 
 ```js
